@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/tvdisplay"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="operation"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="result"
+        android:gravity="center"
+        android:textSize="15dp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_marginBottom="335dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/madd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="-"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btnper"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="b"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/msub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="+"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="255dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="30dp"
+            android:text="+"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="170dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn4"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn5"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn6"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnsub"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="85dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn2"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn3"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnmul"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u00D7"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btndiv"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\u00F7"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn0"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btnclear"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btneq"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
+
+
